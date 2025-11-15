@@ -13,17 +13,11 @@ By updating the `srcs/tests` directory, you’ll get a cleaner and more organize
 1. **Compile Your `libft.a`**
    First, compile your `libft.a` using your own `Makefile`, and place the resulting library file in the `/libs` directory of the LfgTester project.
 
-2. **Add Your Header File**
-   Place your `libft.h` file in the `/includes` directory.
-
-3. **Update the Makefile**
-   Edit the `Makefile` and comment out any file corresponding to a function you haven’t implemented yet.
-
-4. **Modify the Test Files**
+2. **Modify the Test Files**
 
    * Go to `/tests/all.c` and comment out any test functions for functions you haven’t implemented yet.
    * Complete the tests in the `srcs/tests` directory as needed.
      Each test should return `2` if it is uncompleted, `1` if it passes, and `0` otherwise.
 
-5. **Run the Tests**
+3. **Run the Tests**
    Now, you should be able to run `make` and execute the tests.
